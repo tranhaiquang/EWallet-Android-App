@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Change the box stroke color -->
+        <item name="boxStrokeColor">#673AB7</item>
+        <!-- Change other attributes as needed -->
+        <item name="hintTextColor">#673AB7</item>
+        <item name="android:textColorHint">#000000</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- ... other theme attributes ... -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
